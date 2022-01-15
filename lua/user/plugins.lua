@@ -106,6 +106,7 @@ return packer.startup(function(use)
     "neoclide/coc.nvim",
     branch = "release"
   }
+  use 'nkrkv/nvim-treesitter-rescript'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
